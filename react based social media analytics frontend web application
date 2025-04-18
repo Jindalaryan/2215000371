@@ -1,1 +1,110 @@
+http://20.244.56.144/evaluation-service/users
+
+{
+"users":{
+"1": "John Doe",
+"10": "Helen Moore",
+"11": "Ivy Taylor",
+"12": "Jack Anderson",
+"13": "Kathy Thomas",
+"14": "liam Jackson",
+"15": " Mona Harris",
+"16": "Nathan Clark",
+"17": "Oliva Lewis",
+"18": "Paul walker",
+"19": "Quinn Scott",
+"2": "Jane Doe",
+"20": "Rachel Young",
+"3": "Alice smith",
+"4": "Bob Johnson",
+"5": "Charlie Brown",
+"6": "Diana White",
+"7": "Edward Davis",
+"8": "Fiona Miller",
+"9": "George Wilson"
+}
+}
+
+
+http://20.244.56.144/evaluation-service/users/:userid/posts
+http://20.244.56.144/evaluation-service/users/1/posts
+
+
+{
+"posts":
+{
+"id": 246,
+"userid": 1,
+"content": "post about ant"
+},
+{
+"id": 161,
+"userid": 1,
+"content": "post about elephant"
+},
+{
+"id": 150,
+"userid": 1,
+"content": "post about ocean"
+},
+{
+"id": 370,
+"userid": 1,
+"content": "post about monkey"
+},
+{
+"id": 344,
+"userid": 1,
+"content": "post about ocean"
+},
+{
+"id": 952,
+"userid": 1,
+"content": "post about Zebra"
+},
+{
+"id": 647,
+"userid": 1,
+"content": "post about igloo"
+},
+{
+"id": 421,
+"userid": 1,
+"content": "post about house"
+},
+{
+"id": 890,
+"userid": 1,
+"content": "post about bat"
+},
+{
+"id": 461,
+"userid": 1,
+"content": "post about umbrella"
+}
+]
+}
+
+
+http://20.244.56.144/evaluation-service/posts/:postid/comments
+http://20.244.56.144/evaluation-service/posts/150/comments
+
+{
+"comments": [
+{
+"id": 3893,
+"postid": 150,
+"content": "old comment"
+},
+{
+"id": 4791,
+"postid": 150,
+"content": "Boring comment"
+}
+]
+}
+
+
+
+
 
